@@ -1,10 +1,12 @@
+import styles from 'styles/hero.module.scss'
+
 export default function Hero({ title, subtitle, imageOn = false }) {
   return (
-    <div>
-      <h1 style={{ color: 'red', fontSize: '80px' }}>{title}</h1>
-      <p>{subtitle}</p>
+    <div className={styles.text}>
+      <h1 className={styles.title}>{title}</h1>
+      <p className={styles.subtitle}>{subtitle}</p>
       {imageOn && <figure>[画像]</figure>}
-      <div
+      {/* <div
         className="link_wrap"
         style={{ border: '1px solid #000', display: 'inline-block' }}
       >
@@ -16,7 +18,7 @@ export default function Hero({ title, subtitle, imageOn = false }) {
         <a href="about">ABOUT</a>
         <br />
         <a href="blog">BLOG</a>
-      </div>
+      </div> */}
     </div>
   )
 }
