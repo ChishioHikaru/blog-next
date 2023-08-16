@@ -12,9 +12,6 @@ export default function Hero({ title, subtitle, imageOn = false }) {
       >
         <span>通常のリンク</span>
         <br />
-
-        <a href="/">HOME</a>
-        <br />
         <a href="about">ABOUT</a>
         <br />
         <a href="blog">BLOG</a>
