@@ -13,11 +13,17 @@ export default function Hero({ title, subtitle, imageOn = false }) {
         <span>通常のリンク</span>
         <br />
 
-        <a href="/">HOME</a>
+        <a href="/" legacyBehavior>
+          HOME
+        </a>
         <br />
-        <a href="about">ABOUT</a>
+        <a href="about" legacyBehavior>
+          ABOUT
+        </a>
         <br />
-        <a href="blog">BLOG</a>
+        <a href="blog" legacyBehavior>
+          BLOG
+        </a>
       </div>
     </div>
   )
