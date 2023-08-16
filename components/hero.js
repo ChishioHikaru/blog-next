@@ -10,7 +10,7 @@ export default function Hero({ title, subtitle, imageOn = false }) {
         className="link_wrap"
         style={{ border: '1px solid #000', display: 'inline-block' }}
       >
-        <span>普通のリンク</span>
+        <span>通常のリンク</span>
         <br />
 
         <a href="/">HOME</a>
