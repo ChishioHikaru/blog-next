@@ -18,7 +18,7 @@ export default function About() {
       <figure>
         <Image
           src={eyecatch}
-          alt=""
+          alt="犬の画像です"
           style={{
             width: '100%',
             height: 'auto',
