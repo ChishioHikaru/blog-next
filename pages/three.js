@@ -44,6 +44,7 @@ function App() {
   return (
     <>
       <h1>Three.js アニメーション</h1>
+      <p>マウスでホバーしたりクリックしたりしてみてください。</p>
       <div id="canvas-container">
         <Canvas>
           <Box position={[-1.6, 0, 0]} />
